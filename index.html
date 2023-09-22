@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chirp</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <!-- Start Navbar -->
+
+    <nav class="navbar navbar-expand-sm" aria-label="Offcanvas navbar large">
+        <div class="container my-2">
+            <a class="navbar-brand" href="#">Chirp.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas"
+                aria-controls="offcanvas" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end " tabindex="-1" id="offcanvas"
+                aria-labelledby="offcanvasLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasLabel"><a class="navbar-brand" href="#">Chirp.</a></h5>
+                    <button type="button" class="btn-close btn-close-black" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="d-flex align-items-md-center navbar-nav ms-auto mb-2 mb-sm-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Pricing</a>
+                        </li>
+                        <li class="nav-item me-3">
+                            <a class="nav-link" href="#">FAQ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="min-btn" href="#">
+                                <button type="button" class="btn"><img src="./Assets/Twitter.svg" alt=""><span>Sing in with
+                                        Twitter</span></button>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- End Navbar -->
+
+    <!-- Start Home -->
+
+    <section id="home">
+        <div class="container">
+            <div class="row pb-5 d-flex flex-lg-row flex-column-reverse">
+                <div id="home-titel" class="col-lg-7">
+                    <h1 class="col-lg-11 display-5 fw-bold text-black pt-lg-5 pt-3">Twitter analytics taken to a whole new level.</h1>
+                    <p class="text-black-50">Chirp is suite of Twitter analytics that will help you better understand
+                        your audience, which
+                        tweets they like, and most importantly, when they are the most active on Twitter.</p>
+                    <div id="more">
+                        <a id="min-btn" href="#" class="text-decoration-none">
+                            <button type="button" class="btn"><img src="./Assets/Twitter.svg" alt=""><span>Sing in with
+                                    Twitter</span></button>
+                        </a>
+                        <a id="learn-more" href="#" class="fw-bold align-items-center text-decoration-none small ms-md-3 ">
+                            Learn more <i class="fa fa-arrow-right small ms-2"></i>
+                        </a>
+                    </div>
+                    <div class="images">
+                        <img src="./Assets/userAvatar09.svg" class="border-1 border-white rounded-5 my-4" id="home-avatar1" alt="">
+                        <img src="./Assets/userAvatar08.svg" class="border-1 border-white rounded-5 my-4" id="home-avatar" alt="">
+                        <img src="./Assets/userAvatar07.svg" class="border-1 border-white rounded-5 my-4" id="home-avatar" alt="">
+                        <img src="./Assets/userAvatar06.svg" class="border-1 border-white rounded-5 my-4" id="home-avatar" alt="">
+                        <img src="./Assets/userAvatar05.svg" class="border-1 border-white rounded-5 my-4" id="home-avatar" alt="">
+                        <img src="./Assets/userAvatar04.svg" class="border-1 border-white rounded-5 my-4" id="home-avatar" alt="">
+                        <img src="./Assets/userAvatar03.svg" class="border-1 border-white rounded-5 my-4" id="home-avatar" alt="">
+                        <img src="./Assets/userAvatar02.svg" class="border-1 border-white rounded-5 my-4" id="home-avatar" alt="">
+                        <img src="./Assets/userAvatar01.svg" class="border-1 border-white rounded-5 my-4" id="home-avatar" alt="">
+                    </div>
+                    <p class="text-black-50 col-12 col-md-8 col-lg-12">Join <span>195</span> others who have analyzed their followers and scheduled <span>1342</span>
+                        tweets!</p>
+                </div>
+                <div class="col-lg-5 py-2">
+                    <img src="./Assets/Hero Image (Desktop View).png" class="img-fluid d-lg-block d-none" alt="">
+                    <img src="./Assets/Hero Image (Tablet View).png" class="img-fluid d-md-block d-lg-none d-none" alt="">
+                    <img src="./Assets/Hero Image (Desktop View).png" class="img-fluid d-sm-block d-md-none" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Home -->
+
+    <!-- Start Features -->
+
+    <section id="">
+        <div class="container py-5">
+            <h1 class="col-lg-6 fw-bold">Features that help you Tweet smarter.</h1>
+            <div class="row">
+                <div class="col-lg-6 py-3">
+                    <div class="" id="features-box">
+                        <div class="p-3">
+                            <p class=""><img src="./Assets/Analytics.png" class="img-fluid" id="features-img" alt=""></p>
+                            <h1 class="fs-5 fw-bold">Analytics</h1>
+                            <p class="text-black-50">We constantly monitor your audience as it grows so you can Tweet when your followers are most likely to be online and
+                                ready to engage with your content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 py-3">
+                    <div class="" id="features-box">
+                        <div class="p-3">
+                            <p class=""><img src="./Assets/Smart.png" class="img-fluid" id="features-img" alt=""></p>
+                            <h1 class="fs-5 fw-bold">Smart Analyzer</h1>
+                            <p class="text-black-50">Chirp automatically recognizes your followers’ most active times and automatically sends you notifications if you’re
+                            missing out on an opportunity.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 py-3">
+                    <div class="" id="features-box">
+                        <div class="p-3">
+                            <p class=""><img src="./Assets/Scheduled.png" class="img-fluid" id="features-img" alt=""></p>
+                            <h1 class="fs-5 fw-bold">Scheduled Your Tweets</h1>
+                            <p class="text-black-50">Quality tweets drive tons of engagement. With Chirp, you can write tweets in an advance and schedule them when your
+                            audience is most likely to read.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 py-3">
+                    <div class="" id="features-box">
+                        <div class="p-3">
+                            <p class=""><img src="./Assets/DarkMode.png" class="img-fluid" id="features-img" alt=""></p>
+                            <h1 class="fs-5 fw-bold">Dark Mode</h1>
+                            <p class="text-black-50">Friendly on the eyes, no matter what time you write your Tweets. All colors are chosen to make sure your eyes are at
+                            ease at all times.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- End Features -->
+
+    <!-- Start Customers Say -->
+
+    <section id="customers">
+        <div class="container py-5">
+            <h1 class="col-lg-6 fs-2 fw-bold">What our customers say</h1>
+            <div class="row">
+
+                
+                <div class="col-lg-4 py-3">
+                    <div class="box bg-white p-4 rounded-1">
+                        <div class="d-flex align-items-center justify-content-between ">
+                            <div class="d-flex align-items-center">
+                                <div>
+                                    <div><img src="./Assets/userAvatar01.svg" class="img-fluid me-3" id="customers-Avatar" alt=""></div>
+                                </div>
+                                <div>
+                                    <p class="m-0 fw-bold fs-5">Sara May</p>
+                                    <p class="m-0 text-black-50 small">@sara_may</p>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="./Assets/Twitter (Blue).svg" class="img-fluid " alt="">
+                            </div>
+                        </div>                        
+                        <div>
+                        <p class="text-black-50 mt-3">I just tried out @chirp and it’s Amazing, love all the analytics I can See.</p>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img src="./Assets/Like.svg" class="img-fluid me-2" alt="">
+                                <p class="m-0 text-black-50">2</p>
+                            </div>
+                            <div>
+                                <p class="m-0 text-black-50">March 2, 2021</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 py-3">
+                    <div class="box bg-white p-4 rounded-1">
+                        <div class="d-flex align-items-center justify-content-between ">
+                            <div class="d-flex align-items-center">
+                                <div>
+                                    <div><img src="./Assets/userAvatar07.svg" class="img-fluid me-3" id="customers-Avatar" alt=""></div>
+                                </div>
+                                <div>
+                                    <p class="m-0 fw-bold fs-5">Jack Scott</p>
+                                    <p class="m-0 text-black-50 small">@jackscott_</p>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="./Assets/Twitter (Blue).svg" class="img-fluid " alt="">
+                            </div>
+                        </div>                        
+                        <div>
+                        <p class="text-black-50 mt-3">I initially started using Chirp to support the co-founder as I personally knew him, but after having tried it out for a
+                        few weeks, I can genuinely say this changed my Twitter game.</p>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img src="./Assets/Like.svg" class="img-fluid me-2" alt="">
+                                <p class="m-0 text-black-50">32</p>
+                            </div>
+                            <div>
+                                <p class="m-0 text-black-50">March 2, 2021</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 py-3">
+                    <div class="box bg-white p-4 rounded-1">
+                        <div class="d-flex align-items-center justify-content-between ">
+                            <div class="d-flex align-items-center">
+                                <div>
+                                    <div><img src="./Assets/userAvatar02.svg" class="img-fluid me-3" id="customers-Avatar" alt=""></div>
+                                </div>
+                                <div>
+                                    <p class="m-0 fw-bold fs-5">Jessica May</p>
+                                    <p class="m-0 text-black-50 small">@jmay98</p>
+                                </div>
+                            </div>
+                            <div>
+                                <img src="./Assets/Twitter (Blue).svg" class="img-fluid " alt="">
+                            </div>
+                        </div>                        
+                        <div>
+                        <p class="text-black-50 mt-3">I just tried out @chirp and it’s Amazing, love all the analytics I can See.</p>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="d-flex align-items-center justify-content-center">
+                                <img src="./Assets/Like.svg" class="img-fluid me-2" alt="">
+                                <p class="m-0 text-black-50">221</p>
+                            </div>
+                            <div>
+                                <p class="m-0 text-black-50">March 2, 2021</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- End ustomers Say -->
+
+
+    <!-- Start price -->
+
+        <section id="price">
+            <div class="container d-flex justify-content-center">
+                <div class="col-lg-6 ">
+                        <div>
+                            <h1 class="fw-bold pt-5">One simple price plan.</h1>
+                            <p class=" text-black-50">Start growing your Twitter account by analyzing your follower’s patterns.</p>
+                        </div>
+                    
+
+                    <div id="price-box" class="rounded-3 p-4 my-5 ">
+                        <div>
+                            <p class="text-black-50 m-0">Monthly</p>
+                            <div class="d-flex align-items-baseline">
+                                <h1 class="fw-bold">$9</h1>
+                                <p class="text-black-50">/mo</p>
+                            </div>
+                        </div>
+                        <div class="border-1 border-top border-bottom py-3 mb-3" id="">
+                            <div class="d-flex align-items-center pb-3">
+                                <img src="./Assets/Checkmark.svg" class="img-fluid me-3" alt="">
+                                <p class="m-0 text-black-50 small">Unlimited* scheduled tweets and threads.</p>
+                            </div>
+                            <div class="d-flex align-items-center pb-3">
+                                <img src="./Assets/Checkmark.svg" class="img-fluid me-3" alt="">
+                                <p class="m-0 text-black-50 small">Schedule up to 3 weeks in advance.</p>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <img src="./Assets/Checkmark.svg" class="img-fluid me-3" alt="">
+                                <p class="m-0 text-black-50 small">Real-time audience analytics tracking up to 5k followers.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <a class="nav-link w-100" id="min-btn" href="#">
+                                <button type="button" id="price-btn" class="btn"><img src="./Assets/Twitter.svg" alt=""><span>Sing in with
+                                        Twitter</span></button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- End price -->
+
+
+    <!-- Start footer -->
+        <footer id="footer">
+            <div class="container d-flex justify-content-between py-3">
+                <a class="navbar-brand" href="#">Chirp.</a>
+                <div class="d-flex gap-md-4 gap-2">
+                        <a class="nav-link" aria-current="page" href="#">
+                            <img src="./Assets/Twitter (Black).svg" class="img-fluid" alt="">
+                        </a>
+                        <a class="nav-link" href="#">Privacy Policy</a>
+                        <a class="nav-link" href="#">Terms of Use</a>
+                </div>
+            </div>
+        </footer>
+    <!-- End footer -->
+
+<script src="./js/bootstrap.js"></script>
+</body>
+
+</html>

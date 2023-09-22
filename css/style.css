@@ -1,0 +1,136 @@
+* {
+  font-family: 'Inter';
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+#home,
+nav {
+  background: #fbf8f3;
+}
+
+.navbar-brand {
+  color: #3180f5;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.navbar-toggler {
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.navbar-toggler:focus {
+  border: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#min-btn button {
+  padding: 15px 18px;
+  background: #1da1f2;
+  border-radius: 5px;
+}
+
+#min-btn img {
+  width: 20px;
+}
+
+#min-btn span {
+  color: #fff;
+  font-weight: 600;
+  margin-left: 10px;
+  font-size: 17px;
+}
+
+#min-btn #price-btn {
+  width: 100%;
+  padding: 15px 18px;
+  background: #1da1f2;
+  border-radius: 5px;
+}
+
+span {
+  color: #3180f5;
+  font-weight: 600;
+}
+
+#home-avatar {
+  margin-left: -27px;
+}
+
+#features-box {
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+}
+
+#features-img {
+  width: 40px;
+}
+
+#footer,
+#customers {
+  background: #d7f5f5;
+}
+
+#customers-Avatar {
+  width: 70px;
+}
+
+#price-box {
+  background: #fbf8f3;
+  border: 1px solid #ffad23;
+}
+
+@media (max-width: 992px) {
+  #home-titel h1 {
+    font-size: 57px;
+  }
+  #home-titel p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 576px) {
+  #home-avatar1 {
+    width: 51px;
+  }
+  #home-avatar {
+    margin-left: -27px;
+    width: 51px;
+  }
+  #home-titel h1 {
+    font-size: 35px;
+  }
+  #min-btn button {
+    width: 100% !important;
+    padding: 15px 18px;
+  }
+  #min-btn button img {
+    width: 30px;
+  }
+  #min-btn button span {
+    color: #fff;
+    font-weight: 600;
+    margin-left: 10px;
+    font-size: 20px;
+  }
+  #learn-more {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 20px;
+    font-size: 20px;
+  }
+  p {
+    font-size: 22px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
